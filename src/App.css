@@ -20,3 +20,26 @@
 .App-link {
   color: #09d3ac;
 }
+
+.panelCol {
+  border-right: 1px solid #dddddd;
+  width: 30%;
+  height: 100%;
+  /* text-align: left; */
+  padding: 8px;
+}
+
+.verticalLine {
+  border-left: 6px solid grey;
+  height: 100%;
+  position: absolute;
+  /* left: 50%; */
+  margin-left: -3px;
+  top: 0;
+}
+
+.contentCol {
+  /* border: 1px solid #dddddd; */
+  width: 70%;
+  padding: 8px;
+}
